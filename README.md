@@ -22,42 +22,42 @@ $ node index.js
 
 ### Manejo de Usuarios
 
-1. 'users'  
-- Query para ver todos los usuarios existentes
+1. Query para ver todos los usuarios existentes
+- 'users'  
 
-2. 'user(id: Int!)' 
-- Query para ver un usuario en especifico
+2. Query para ver un usuario en especifico
+- 'user(id: Int!)' 
 
-3. 'createUser(name: String! age: Int! email: String! )' 
-- Mutation para crear un usuario
+3. Mutation para crear un usuario
+- 'createUser(name: String! age: Int! email: String! )' 
 
-4. 'updateUser(id: Int! name: String age: Int email: String address: AddressInput)'
-- Mutation para editar los datos del usuario y agregar direccion 
+4. Mutation para editar los datos del usuario y agregar direccion 
+- 'updateUser(id: Int! name: String age: Int email: String address: AddressInput)'
 
 ### Manejo de Posts
 
-1. 'posts'  
-- Query para ver todos los posts existentes
+1. Query para ver todos los posts existentes
+- 'posts'  
 
-2. 'post(id: Int!)' 
-- Query para ver un post en especifico
+2. Query para ver un post en especifico
+- 'post(id: Int!)' 
 
-3. 'createPost(title: String! content: String! author: Int!)'
-- Mutation para crear un post
+3. Mutation para crear un post
+- 'createPost(title: String! content: String! author: Int!)'
 
-4. updatePost(idPost: Int! title: String! content: String!)
-- Mutation para editar los datos del post 
+4. Mutation para editar los datos del post 
+- updatePost(idPost: Int! title: String! content: String!)
 
 ### Manejo de Comentarios
 
-1. 'comments'  
-- Query para ver todos los comentarios existentes
+1. Query para ver todos los comentarios existentes
+- 'comments'  
 
-2. 'comment(id: Int!)' 
-- Query para ver un comentario en especifico
+2. Query para ver un comentario en especifico
+- 'comment(id: Int!)' 
 
-3. 'createComment(idPost: Int! idUser: Int! content: String!)'
-- Mutation para crear un comentario
+3. Mutation para crear un comentario
+- 'createComment(idPost: Int! idUser: Int! content: String!)'
 
-4. updateComment(idComment: Int! content: String!)
-- Mutation para editar los datos del comentario 
+4. Mutation para editar los datos del comentario 
+- updateComment(idComment: Int! content: String!)
